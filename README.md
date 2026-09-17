@@ -1,8 +1,3 @@
-Você acabou misturando a abertura de blocos de código (as três crases ```), títulos incompletos e fechamentos de Markdown no meio do arquivo.
-
-Aqui está o código **100% corrigido, limpo e estruturado** para você copiar e colar diretamente no seu arquivo `README.md`:
-
-```markdown
 # 🚀 Sistema de Gerenciamento de Produtos - Back-End Java
 
 Repositório para fins acadêmicos, referente às fases do projeto da disciplina de Back-End.
