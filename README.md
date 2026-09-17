@@ -1,9 +1,3 @@
-```Comando para compilar
-& "C:\Program Files\Java\jdk-17\bin\javac.exe" -encoding utf-8 -d bin -sourcepath src src\br\com\faculdade\Main.java
-
-```Comando para executar a aplicação no terminal
-java -cp bin br.com.faculdade.Main
-
 # 🚀 Sistema de Gerenciamento de Produtos - Back-End Java
 
 Repositório para fins acadêmicos, referente às fases do projeto da disciplina de Back-End.
@@ -38,12 +32,7 @@ Back_End/
                 │   └── ProdutoRepository.java
                 └── Main.java
 
-###
----
-
-**3. Relatório Breve de Decisões de Design e Dificuldades (`Relatorio_Decisoes_Design.md`)**
-
-Você pode salvar como um arquivo separado ou incluir ao final do relatório da faculdade:
+## 3. Relatório Breve de Decisões de Design e Dificuldades (`Relatorio_Decisoes_Design.md`)**
 
 ```markdown
 # Relatório de Decisões de Design e Dificuldades
@@ -68,3 +57,10 @@ Você pode salvar como um arquivo separado ou incluir ao final do relatório da 
 3. **Limpeza do Buffer do Scanner:**
    - *Problema:* Ao alternar entre a leitura de números (`nextInt()`, `nextDouble()`) e textos (`nextLine()`), o caractere de quebra de linha permanecia no buffer, pulando leituras no console.
    - *Solução:* Inclusão do método `scanner.nextLine()` após as leituras numéricas para esvaziar o buffer antes de capturar entradas de texto.
+
+##
+```Comando para compilar
+& "C:\Program Files\Java\jdk-17\bin\javac.exe" -encoding utf-8 -d bin -sourcepath src src\br\com\faculdade\Main.java
+
+```Comando para executar a aplicação no terminal
+java -cp bin br.com.faculdade.Main
